@@ -10,4 +10,9 @@ class HomePageController extends Controller
    {
     return view('home-master');
    }
+
+   public function show()
+   {
+    return view('blog-post');
+   }
 }
